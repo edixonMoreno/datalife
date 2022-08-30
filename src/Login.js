@@ -1,9 +1,9 @@
 import { useState } from "react";
-import "./MyInput.css"
+import "./login.css"
 import {Formik} from "formik";
 
 
-const MyImput = () => {
+const Login = () => {
 
     const [formularioEnviado, cambiarFormularioEnviado] = useState(false);
     // const [inputNombre, cambiarInputNombre] = useState("");
@@ -105,4 +105,4 @@ const MyImput = () => {
     )
 }
 
-export default MyImput;
+export default Login;
